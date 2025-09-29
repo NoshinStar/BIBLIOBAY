@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="icon" type="image/svg" href="./img/bookfavicon.svg" />
+  <title>BIBLIBAY - Your Gateway to Literary Excellence</title>
+</head>
+
+<body>
+  <!-- Header Start  -->
+  <header class="header">
+    <!-- Header 1 Start  -->
+    <div class="header-1">
+      <a href="#" class="logo"><i class="fas fa-book"></i> BIBLIOBAY</a>
+      <form action="" class="search-form">
+        <input type="search" name="" placeholder="Search for books, authors, genres..." id="search-box" />
+        <label for="search-box" type="submit" class="fas fa-search"></label>
+      </form>
+      <div class="icons">
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" class="fas fa-heart-circle-check"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a id="login-btn" class="fa-solid fa-user" href="./login.html"></a>
+        <a href="/admin/admin-login.html" class="fas fa-user-shield" title="Admin Panel"></a>
+      </div>
+    </div>
+    <!-- Header 1 End -->
+
+    <!-- Header 2 Start -->
+    <div class="header-2">
+      <div class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#popular">Bestsellers</a>
+        <a href="#member">Membership</a>
+        <a href="#new">New Releases</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#blogs">Literary Insights</a>
+      </div>
+    </div>
+    <!-- Header 2 End -->
+  </header>
+  <!-- Header End -->
+
+  <!-- Bottom Navbar Start -->
+  <div class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#about" class="fas fa-people-group"></a>
+    <a href="#popular" class="fas fa-fire"></a>
+    <a href="#member" class="fas fa-user-plus"></a>
+    <a href="#new" class="fas fa-book-bookmark"></a>
+    <a href="#reviews" class="fas fa-star"></a>
+    <a href="#blogs" class="fas fa-newspaper"></a>
+  </div>
+  <!-- Bottom Navbar End -->
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="row">
+      <div class="content">
+        <h3>Where Stories Come Alive</h3>
+        <p>
+          Embark on a literary journey through endless worlds of knowledge, creativity, and imagination. From timeless classics to contemporary bestsellers, BiblioBay is your ultimate sanctuary for every book enthusiast.
+        </p>
+        <a href="#popular" class="btn">Explore Collection</a>
+      </div>
+
+      <div class="swiper books-slider">
+        <div class="swiper-wrapper">
+          <a href="#" class="swiper-slide"><img src="./img/book-1.png" alt="" /></a>
+          <a href="#" class="swiper-slide"><img src="./img/n-1.webp" alt="" /></a>
+          <a href="#" class="swiper-slide"><img src="./img/b-1.png" alt="" /></a>
+          <a href="#" class="swiper-slide"><img src="./img/b-2.png" alt="" /></a>
+          <a href="#" class="swiper-slide"><img src="./img/book-14.webp" alt="" /></a>
+          <a href="#" class="swiper-slide"><img src="./img/b-3.webp" alt="" /></a>
+        </div>
+        <img src="./img/stand.png" class="stand" alt="" />
+      </div>
+    </div>
+  </section>
+  <!-- Home Section End -->
+
+  <!-- About Us Start -->
+  <section id="about" class="about">
+    <div class="container">
+      <h1>WHY CHOOSE BIBLIOBAY?</h1>
+      <div class="row">
+        <div class="image">
+          <img src="./img/img4.svg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>Your Gateway to Literary Excellence</h3>
+          <p>
+            Welcome to BiblioBay, where the love of reading meets exceptional service. As Chattogram's premier bookstore and online marketplace, we've curated an extraordinary collection of books that spans across genres, cultures, and time periods. Our passion for literature drives us to provide not just books, but complete reading experiences that transform lives and expand horizons.
+          </p>
+          <p>
+            Our dedicated team of bibliophiles carefully selects each title in our collection, ensuring that we offer only the finest works from both established and emerging authors. Whether you're seeking the latest bestseller, a rare find, or a classic that has shaped generations, BiblioBay is your trusted companion in the world of literature.
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shield"></i>
+              <span>Secure Delivery</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-wallet"></i>
+              <span>Flexible Payments</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>Expert Support</span>
+            </div>
+          </div>
+          <a href="./404Error.html" class="btn">Discover Our Story</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Us End -->
+
+  <!-- Popular Book Start -->
+  <section class="popular" id="popular">
+    <h1 class="heading"><span> Bestsellers & Fan Favorites </span></h1>
+    <div class="swiper popular-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <div class="icons">
+            <a href="#popular" class="fas fa-search"></a>
+            <a href="#popular" class="fas fa-heart-circle-plus"></a>
+            <a href="#popular" class="fas fa-info"></a>
+          </div>
+          <div class="image">
+            <img src="./img/b-1.png" alt="" />
+          </div>
+          <div class="content">
+            <h3> অপেক্ষা</h3>
+            <div class="price">BDT 250.00 <span>BDT 290.00</span></div>
+            <a href="#popular" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="icons">
+            <a href="#popular" class="fas fa-search"></a>
+            <a href="#popular" class="fas fa-heart-circle-plus"></a>
+            <a href="#popular" class="fas fa-info"></a>
+          </div>
+          <div class="image">
+            <img src="./img/b-2.png" alt="" />
+          </div>
+          <div class="content">
+            <h3> কোথাও কেউ নেই</h3>
+            <div class="price">BDT 250.00 <span>BDT 300.00</span></div>
+            <a href="#popular" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="icons">
+            <a href="#popular" class="fas fa-search"></a>
+            <a href="#popular" class="fas fa-heart-circle-plus"></a>
+            <a href="#popular" class="fas fa-info"></a>
+          </div>
+          <div class="image">
+            <img src="./img/b-3.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3> প্রথম আলো</h3>
+            <div class="price">BDT 2000.00 <span>BDT 2300.00</span></div>
+            <a href="#popular" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="icons">
+            <a href="#popular" class="fas fa-search"></a>
+            <a href="#popular" class="fas fa-heart-circle-plus"></a>
+            <a href="#popular" class="fas fa-info"></a>
+          </div>
+          <div class="image">
+            <img src="./img/book-14.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3> জোছনা ও জননীর গল্প </h3>
+            <div class="price">BDT 600.00 <span>BDT 680.00</span></div>
+            <a href="#popular" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="icons">
+            <a href="#popular" class="fas fa-search"></a>
+            <a href="#popular" class="fas fa-heart-circle-plus"></a>
+            <a href="#popular" class="fas fa-info"></a>
+          </div>
+          <div class="image">
+            <img src="./img/book-1.png" alt="" />
+          </div>
+          <div class="content">
+            <h3> Harry Potter</h3>
+            <div class="price">BDT 1020.00 <span>BDT 1100.00</span></div>
+            <a href="#popular" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="icons">
+            <a href="#popular" class="fas fa-search"></a>
+            <a href="#popular" class="fas fa-heart-circle-plus"></a>
+            <a href="#popular" class="fas fa-info"></a>
+          </div>
+          <div class="image">
+            <img src="./img/book-2.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3> A Tale Of Two Cities</h3>
+            <div class="price">BDT 660.00 <span>BDT 725.00</span></div>
+            <a href="#popular" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="icons">
+            <a href="#popular" class="fas fa-search"></a>
+            <a href="#popular" class="fas fa-heart-circle-plus"></a>
+            <a href="#popular" class="fas fa-info"></a>
+          </div>
+          <div class="image">
+            <img src="./img/book-3.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Crime and Punishment</h3>
+            <div class="price">BDT 800.00 <span>BDT 930.00</span></div>
+            <a href="#popular" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="icons">
+            <a href="#popular" class="fas fa-search"></a>
+            <a href="#popular" class="fas fa-heart-circle-plus"></a>
+            <a href="#popular" class="fas fa-info"></a>
+          </div>
+          <div class="image">
+            <img src="./img/book-4.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3> Pride and Prejudice</h3>
+            <div class="price">BDT 800.00 <span>BDT 850.00</span></div>
+            <a href="#popular" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="icons">
+            <a href="#popular" class="fas fa-search"></a>
+            <a href="#popular" class="fas fa-heart-circle-plus"></a>
+            <a href="#popular" class="fas fa-info"></a>
+          </div>
+          <div class="image">
+            <img src="./img/book-5.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3> White Nights</h3>
+            <div class="price">BDT 300.00 <span>BDT 350.00</span></div>
+            <a href="#popular" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="icons">
+            <a href="#popular" class="fas fa-search"></a>
+            <a href="#popular" class="fas fa-heart-circle-plus"></a>
+            <a href="#popular" class="fas fa-info"></a>
+          </div>
+          <div class="image">
+            <img src="./img/book-6.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3>সংশপ্তক</h3>
+            <div class="price">BDT 290.00 <span>BDT 350.00</span></div>
+            <a href="#popular" class="btn">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+  <!-- Popular Book End -->
+
+  <!-- Member Start -->
+  <section id="member" class="member">
+    <div class="container">
+      <h1>JOIN OUR READING COMMUNITY!</h1>
+      <div class="row">
+        <div class="content">
+          <h3>
+            Unlock Exclusive Benefits as a <span>BiblioBay Member</span> And<br />
+            Stay Ahead with <span>New Releases & Special Offers!</span>
+          </h3>
+          <p>
+            Imagine having access to a world of literary treasures before anyone else. As a valued BiblioBay member, you'll enjoy priority access to new releases, exclusive invitations to author events, and special discounts on your favorite books. Our community of passionate readers shares recommendations, participates in discussion groups, and discovers hidden literary gems together.
+          </p>
+          <p>
+            Members receive early bird notifications for anticipated titles, personalized reading recommendations based on your preferences, and invitations to exclusive book launches and signings. Plus, enjoy members-only pricing, birthday surprises, and the satisfaction of supporting local authors and the literary community in Chattogram.
+          </p>
+          <form action="">
+            <input type="email" name="" placeholder="Enter your email to get started..." id="" class="box" required />
+            <input type="submit" value="Get Member Updates" class="btn" />
+            <a href="./member.html" class="btn">Become a Member Today</a>
+          </form>
+        </div>
+        <div class="image">
+          <img src="./img/img5.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Member End -->
+
+  <!-- New Book Start -->
+  <section class="new" id="new">
+    <h1 class="heading"><span>Fresh Arrivals: New Releases</span></h1>
+
+    <!-- New Books  Section 1 Starts-->
+    <div class="swiper new-slider">
+      <div class="swiper-wrapper">
+        <a href="#new" class="swiper-slide box">
+          <div class="image">
+            <img src="./img/n-1.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3>The Diary of a Young Girl</h3>
+            <div class="price">BDT 350.00 <span>BDT 390.00</span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </a>
+
+        <a href="#new" class="swiper-slide box">
+          <div class="image">
+            <img src="./img/n-2.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3> Man's Search for Meaning </h3>
+            <div class="price">BDT 700.00 <span>BDT 775.00</span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </a>
+
+        <a href="#new" class="swiper-slide box">
+          <div class="image">
+            <img src="./img/n-3.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3> 1984 </h3>
+            <div class="price">BDT 900.00 <span>BDT 1000.00</span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </a>
+
+        <a href="#new" class="swiper-slide box">
+          <div class="image">
+            <img src="img/n-4.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3> Where the Crawdads Sing</h3>
+            <div class="price">BDT 330.00 <span>BDT 400.00</span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </a>
+
+        <a href="#new" class="swiper-slide box">
+          <div class="image">
+            <img src="./img/n-5.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3>Nothing Lasts Forever</h3>
+            <div class="price">BDT 875.00 <span>BDT 950.00</span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- New Books Section 1 End -->
+
+    <!-- New Books Section 2 Start  -->
+    <div class="swiper new-slider-2">
+      <div class="swiper-wrapper">
+        <a href="#new" class="swiper-slide box">
+          <div class="image">
+            <img src="./img/n-6.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3>Dreams From My Father</h3>
+            <div class="price">BDT 1015.00 <span>BDT 1200.00</span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </a>
+
+        <a href="#new" class="swiper-slide box">
+          <div class="image">
+            <img src="./img/n-7.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3> The Brothers Karamazov</h3>
+            <div class="price">BDT 930.00 <span>BDT 1000.00</span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </a>
+
+        <a href="#new" class="swiper-slide box">
+          <div class="image">
+            <img src="./img/n-8.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3>The Da Vinci Code</h3>
+            <div class="price">BDT 920.00 <span>BDT 1050.00</span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </a>
+
+        <a href="#new" class="swiper-slide box">
+          <div class="image">
+            <img src="./img/n-9.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3>Angels & Demons</h3>
+            <div class="price">BDT 900.00 <span>BDT 1020.00</span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </a>
+
+        <a href="#new" class="swiper-slide box">
+          <div class="image">
+            <img src="./img/n-10.webp" alt="" />
+          </div>
+          <div class="content">
+            <h3>The Idiot</h3>
+            <div class="price">BDT 750.00 <span>BDT 820.00</span></div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- New Books Section 2 End-->
+  </section>
+  <!-- New Book End -->
+
+  <!-- Review Start -->
+  <section class="reviews" id="reviews">
+    <h1>Reader Love Stories</h1>
+    <div class="swiper reviews-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <i class="fas fa-quote-left quote"></i>
+          <p>
+            As a student, I love how BiblioBay makes learning resources so accessible. The personalized recommendations have introduced me to authors I never would have discovered otherwise. It's more than a bookstore; it's a community of passionate readers.
+          </p>
+          <div class="content">
+            <div class="info">
+              <div class="name">Ariyan Hamdan</div>
+              <div class="job">Web Dev</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="image">
+              <img src="./img/avatar4.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <i class="fas fa-quote-left quote"></i>
+          <p>
+            I found some rare books here that I couldn't find anywhere else. The website is easy to use and very organized. The staff's knowledge about literature is impressive, and they always have great recommendations.
+          </p>
+          <div class="content">
+            <div class="info">
+              <div class="name">Zumaima Zubi</div>
+              <div class="job">YouTuber</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="image">
+              <img src="./img/avatar2.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <i class="fas fa-quote-left quote"></i>
+          <p>
+            BiblioBay is my favorite place to buy books online. Fast delivery, great collection, and very affordable prices! The author events they organize are fantastic too - I've met so many of my favorite writers through their store.
+          </p>
+          <div class="content">
+            <div class="info">
+              <div class="name">Zayan Rohoman</div>
+              <div class="job">Programmer</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="image">
+              <img src="./img/avatar5.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <i class="fas fa-quote-left quote"></i>
+          <p>
+            The best part is the personalized recommendations! Every book I ordered truly fed my soul. As a member, I get early access to new releases and exclusive discounts that make reading even more enjoyable.
+          </p>
+          <div class="content">
+            <div class="info">
+              <div class="name">Ashik</div>
+              <div class="job">Freelancer</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="image">
+              <img src="./img/avatar3.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <i class="fas fa-quote-left quote"></i>
+          <p>
+            Good packaging and fast shipping. The books arrived in perfect condition. Will definitely shop again. Their collection of Bangladeshi authors is particularly impressive and has expanded my reading horizons.
+          </p>
+          <div class="content">
+            <div class="info">
+              <div class="name">Noshin</div>
+              <div class="job">Doctor</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="image">
+              <img src="./img/avatar6.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Review End -->
+
+  <!-- Blogs Start -->
+  <section class="blogs" id="blogs">
+    <div class="container">
+      <h1 class="heading"><span>Literary Insights & Bookish Adventures</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="./img/blog1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Literary Legends: Bangladesh's Storytellers Changing the Narrative</h3>
+            <p>
+              Journey through the lives and works of Bangladesh's most influential contemporary authors. From Nobel laureates to emerging voices reshaping our literary landscape, discover the personal stories, cultural influences, and creative processes that have produced some of the most compelling Bangladeshi literature of our time. Get exclusive insights into their writing rituals, favorite books, and the social issues they passionately address through their powerful narratives.
+            </p>
+            <a href="./404Error.html" class="btn">read more</a>
+            <div class="icons">
+              <span> <i class="fas fa-calendar"></i> 15 Sep, 2025 </span>
+              <span> <i class="fas fa-user"></i> by admin </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./img/blog3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Hidden Treasures: A Journey Through BiblioBay's Rare Book Collection</h3>
+            <p>
+              Step into the world of bibliophilic wonders as we unveil BiblioBay's extraordinary collection of rare and first-edition books. Discover centuries-old manuscripts, signed first editions from literary giants, and limited prints that tell stories of their own. Join us on a curated tour through our Chattogram vault, where each book has a tale to tell about its journey through time, its place in literary history, and the secrets hidden within its pages.
+            </p>
+            <a href="./404Error.html" class="btn">read more</a>
+            <div class="icons">
+              <span> <i class="fas fa-calendar"></i> 12st sep, 2022 </span>
+              <span> <i class="fas fa-user"></i> by admin </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./img/blog2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>5 Hidden Gems in Bangladeshi Literature You Must Read</h3>
+            <p>
+              Discover the extraordinary works of Bangladeshi authors that deserve wider recognition. These literary treasures, often overlooked in mainstream discussions, offer unique perspectives on our culture, history, and human experience. From groundbreaking novels to thought-provoking poetry, explore the depth and diversity of Bangladesh's literary heritage beyond the well-known classics.
+            </p>
+            <a href="./404Error.html" class="btn">read more</a>
+            <div class="icons">
+              <span> <i class="fas fa-calendar"></i> 12st sep, 2022 </span>
+              <span> <i class="fas fa-user"></i> by admin </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./img/blog4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>The Art of Creating the Perfect Reading Nook</h3>
+            <p>
+              Transform any space into the perfect reading retreat with our guide to designing a cozy, inspiring reading nook that encourages hours of literary immersion. We'll explore the essential elements of the ideal reading environment—from optimal lighting that protects your eyes while creating ambiance to comfortable seating that supports proper posture during long reading sessions.
+            </p>
+            <a href="./404Error.html" class="btn">read more</a>
+            <div class="icons">
+              <span> <i class="fas fa-calendar"></i> 12st sep, 2022 </span>
+              <span> <i class="fas fa-user"></i> by admin </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./img/blog5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>From Page to Screen: Books That Became Blockbuster Movies</h3>
+            <p>
+              Examine the intricate dance between literature and film as we explore the fascinating journey of books that transition to the big screen. Delve into the art of adaptation, examining which novels successfully make the leap and why others fall short. We'll analyze the creative challenges of translating written narrative to visual language, the importance of staying true to the source material while allowing for cinematic interpretation.
+            </p>
+            <a href="./404Error.html" class="btn">read more</a>
+            <div class="icons">
+              <span> <i class="fas fa-calendar"></i> 12st sep, 2022 </span>
+              <span> <i class="fas fa-user"></i> by admin </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./img/blog6.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Building Your Personal Library: A Guide to Curating Your Perfect Collection</h3>
+            <p>
+              Transform your reading space into a sanctuary of literary treasures with our comprehensive guide to building a personal library that reflects your unique taste and lifestyle. From organization systems that make finding your next read effortless to display techniques that turn your books into art, we'll help you create a space that celebrates your love for literature.
+            </p>
+            <a href="./404Error.html" class="btn">read more</a>
+            <div class="icons">
+              <span> <i class="fas fa-calendar"></i> 12st sep, 2022 </span>
+              <span> <i class="fas fa-user"></i> by admin </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./img/blog7.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>The Power of Book Clubs: How Shared Reading Builds Communities</h3>
+            <p>
+              Discover the transformative social power of book clubs and how these gatherings of readers create meaningful connections that extend far beyond the pages of the books they discuss. We'll explore the psychology behind shared reading experiences, how diverse perspectives on the same text enrich understanding, and the surprising ways book clubs combat loneliness while fostering intellectual growth.
+            </p>
+            <a href="./404Error.html" class="btn">read more</a>
+            <div class="icons">
+              <span> <i class="fas fa-calendar"></i> 12st sep, 2022 </span>
+              <span> <i class="fas fa-user"></i> by admin </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./img/blog8.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Literary Tourism: Travel to the Settings of Your Favorite Books</h3>
+            <p>
+              Embark on a journey through the real-world locations that inspired your favorite novels and discover how places shape stories and stories shape our perception of places. From the cobblestone streets of Edinburgh that inspired Ian Rankin's Rebus novels to the Mississippi River settings of Mark Twain's classics, we'll explore how authors incorporate geography into their narratives.
+            </p>
+            <a href="./404Error.html" class="btn">read more</a>
+            <div class="icons">
+              <span> <i class="fas fa-calendar"></i> 12st sep, 2022 </span>
+              <span> <i class="fas fa-user"></i> by admin </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./img/blog9.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Essential Reads: The 5 Books You Can't Miss This Month</h3>
+            <p>
+              Dive into our handpicked selection of literary gems that are captivating readers worldwide this month. From thought-provoking contemporary fiction that challenges perspectives to non-fiction works that expand your understanding of the world, our expert booksellers have identified the titles making waves in the literary scene. Each recommendation comes with a compelling reason why it deserves a spot on your reading list.
+            </p>
+            <a href="./404Error.html" class="btn">read more</a>
+            <div class="icons">
+              <span> <i class="fas fa-calendar"></i> 12st sep, 2025 </span>
+              <span> <i class="fas fa-user"></i> by admin </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="load-more">load more</div>
+    </div>
+  </section>
+  <!-- Blogs End -->
+
+  <!-- Footer Start -->
+  <footer class="footer" id="footer">
+    <div class="main-content">
+      <div class="left box">
+        <h2>Our Story</h2>
+        <div class="content">
+          <p>
+            BiblioBay is a premier bookstore and online marketplace based in Chattogram, Bangladesh, committed to connecting readers with a rich and diverse collection of books — from timeless classics to the latest bestsellers, in both print and digital formats.
+          </p>
+          <br />
+          <p>
+            Our mission is to inspire a love of reading within our community by making quality literature easily accessible and by championing the work of local authors. At BiblioBay, we believe that every book opens the door to a new world of imagination, knowledge, and possibility.
+          </p>
+          <div class="social">
+            <a href="#footer"><span class="fab fa-facebook-f"></span></a>
+            <a href="#footer"><span class="fab fa-twitter"></span></a>
+            <a href="#footer"><span class="fab fa-instagram"></span></a>
+            <a href="#footer"><span class="fa-brands fa-youtube"></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="center box">
+        <h2>Address</h2>
+        <div class="content">
+          <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text">Chattogram, Bangladesh</span>
+          </div>
+          <div class="phone">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text">+8801731093281</span>
+          </div>
+          <div class="email">
+            <span class="fas fa-envelope"></span>
+            <span class="text">bibliobay_ctg@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="right box">
+        <h2>Get in Touch</h2>
+        <div class="content">
+          <form action="">
+            <div class="email">
+              <div class="text">Email</div>
+              <input type="email" placeholder="Email address..." required />
+            </div>
+            <div class="msg">
+              <div class="text">Message</div>
+              <input type="text" placeholder="Your message..." required /></input>
+            </div>
+            <div class="btn">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <span class="credit">Copyright <span class="far fa-copyright"></span> 2022
+      </span>
+      <span> | All rights reserved.</span>
+    </div>
+  </footer>
+  <!-- Footer End  -->
+
+  <!-- Loader Start-->
+  <div class="loader-container">
+    <!-- Gif Source Link: https://tenor.com/view/gb-notebook-laptop-gif-17733403 -->
+    <img src="./img/mainLoader.gif" alt="">
+  </div>
+  <!-- Loader End -->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>
