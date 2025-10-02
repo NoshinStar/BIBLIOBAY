@@ -8,6 +8,7 @@ The application leverages browser localStorage for complete data persistence, ma
 
 ---
 
+![BIBLIOBAY Screenshot](./assets/website-img.png)
 ## ✨ Core Features
 
 ### 🛍️ Customer Experience
